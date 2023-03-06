@@ -5,7 +5,7 @@ ini_set('display_errors', 0);
 $discode = $_POST["discode"];
 $nxsh = $_POST["nxsh"];
 $cid = $_POST["cid"];
-$tolken = "sk_2x2_e5a7fe08c2a8ac408d90247b373e1e78c26e196415dee7bced469f5fd95acc90";
+$tolken = "sk_test_1x1_4d6291727cece28a966025aaefa1503b6853a2698b6be6d0707c1192dcae45dd";
 $version = "2021-11";
 
 $curlchk = curl_init();
@@ -20,7 +20,7 @@ curl_setopt_array($curlchk, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
   CURLOPT_HTTPHEADER => array(
-    'X-Recharge-Access-Token: sk_2x2_e5a7fe08c2a8ac408d90247b373e1e78c26e196415dee7bced469f5fd95acc90',
+    'X-Recharge-Access-Token: sk_test_1x1_4d6291727cece28a966025aaefa1503b6853a2698b6be6d0707c1192dcae45dd',
     'X-Recharge-Version: 2021-11',
   ),
 ));

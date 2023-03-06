@@ -1,7 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 ini_set('display_errors', 0);
-$tolken = "sk_2x2_e5a7fe08c2a8ac408d90247b373e1e78c26e196415dee7bced469f5fd95acc90";
+$tolken = "sk_test_1x1_4d6291727cece28a966025aaefa1503b6853a2698b6be6d0707c1192dcae45dd";
 $version = "2021-11";
 
 $subid = $_POST["subid"];
